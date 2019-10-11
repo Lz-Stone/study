@@ -3,7 +3,6 @@ package pattern.ASM;
 import org.springframework.asm.ClassReader;
 import org.springframework.asm.ClassVisitor;
 import org.springframework.asm.ClassWriter;
-import pattern.staticProxy.ASM.MyClassVisitor;
 
 import java.io.File;
 import java.io.FileOutputStream;

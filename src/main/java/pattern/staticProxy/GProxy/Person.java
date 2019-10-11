@@ -1,6 +1,5 @@
 package pattern.staticProxy.GProxy;
 
-
 public class Person implements PersonIF {
 
     public String name;

@@ -19,4 +19,25 @@ public class TestAgent {
         }
     }
 
+    public static void main(String[] args) {
+       int[] a = {2,7,11,15};
+    }
+
+    public int[] twoSum(int[] nums, int target) {
+        int a =nums.length;
+        int[] result=new int[2];
+        for(int i =0; i<a;i++){
+            int c = target-nums[i];
+            int b =i;
+            while (b <a){
+                if(nums[b] == c){
+                    result[0] =i;
+                    result[1] =b;
+                }
+                b++;
+            }
+        }
+        return result;
+    }
+
 }
